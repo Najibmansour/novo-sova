@@ -5,13 +5,15 @@ import ProductCard from "../product card/productcard";
 const CategoryGroup = () => {
   return (
     <div className="flex w-full flex-col items-center">
-      <h2>Categories</h2>
-      <div className="grid w-[80%] gap-x-5 gap-y-10 md:w-[90%] md:grid-cols-5">
-        <CategorySelector />
+      <div className="w-[80%] space-y-5 md:w-[90%]">
+        <h2>Categories</h2>
+        <div className="grid gap-x-5 gap-y-10 md:grid-cols-5">
+          <CategorySelector />
 
-        {[...Array(9).keys()].map(({ i }) => (
-          <ProductCard key={i} />
-        ))}
+          {[...Array(9).keys()].map(({ i }) => (
+            <ProductCard key={i} />
+          ))}
+        </div>
       </div>
     </div>
   );

@@ -4,7 +4,7 @@ import NavMenu from "./navmenu";
 
 const Navbar = () => {
   return (
-    <div className="absolute z-50 flex min-h-20 w-full flex-row items-center justify-between bg-black/30 bg-opacity-30 px-7">
+    <div className="absolute z-50 flex min-h-20 w-full flex-row items-center justify-between bg-[#291703]/30 bg-opacity-30 px-7">
       <LOGO_SVG className="size-20" />
       <NavMenu></NavMenu>
     </div>

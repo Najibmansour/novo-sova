@@ -14,7 +14,7 @@ import { Input } from "@/components/ui/input";
 import Link from "next/link";
 
 const navigation = [
-  { title: "Home", href: "" },
+  { title: "Home", href: "/" },
   { title: "About", href: "/about" },
   { title: "Categories", href: "/products" },
   { title: "Let's Connect", href: "/contact" },
