@@ -11,7 +11,9 @@ import FAQ from "@/components/custom_ui/contact/faq";
 const Contact = () => {
   return (
     <main>
-      <Hero img={img} desc={<LetsConnect></LetsConnect>} />
+      <Hero img={img}>
+        <LetsConnect></LetsConnect>
+      </Hero>
       <ContactInfo />
       <FAQ></FAQ>
     </main>

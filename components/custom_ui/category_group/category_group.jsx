@@ -23,7 +23,7 @@ export default CategoryGroup;
 
 const CategorySelector = () => {
   return (
-    <div className="grid grid-cols-2 grid-rows-2 gap-3 text-xl">
+    <div className="grid aspect-[10/15] w-full min-w-40 cursor-pointer grid-cols-2 grid-rows-2 gap-3 space-y-1 text-xl md:min-w-52">
       <div className="group col-start-1 row-span-2 flex items-center justify-center rounded-lg bg-[#9F846F] shadow-xl">
         <p className="writing-mode-vertical-rl -rotate-90 transform drop-shadow-2xl transition-transform group-hover:scale-105">
           Chapka

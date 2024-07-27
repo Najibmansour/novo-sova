@@ -1,13 +1,10 @@
 "use client";
 import * as React from "react";
 import Autoplay from "embla-carousel-autoplay";
-import { Card, CardContent } from "@/components/ui/card";
 import {
   Carousel,
   CarouselContent,
   CarouselItem,
-  CarouselNext,
-  CarouselPrevious,
 } from "@/components/ui/carousel";
 import { Circle } from "lucide-react";
 import { cn } from "@/lib/utils";
@@ -40,7 +37,10 @@ export function CarrouselImages() {
   }, [api]);
 
   return (
-    <div className="flex w-full items-center justify-center">
+    <div
+      className="flex w-full items-center justify-center"
+      id="#about_caroussel"
+    >
       <Carousel
         plugins={[
           Autoplay({
@@ -54,7 +54,7 @@ export function CarrouselImages() {
           loop: true,
         }}
       >
-        <CarouselContent>
+        <CarouselContent className="gap-0">
           {imgs.map((img, index) => (
             <CarouselItem key={index} className="group relative">
               <div className="flex w-full items-center justify-center border-y-2 text-background">

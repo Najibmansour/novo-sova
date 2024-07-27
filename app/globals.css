@@ -69,4 +69,16 @@
   h2 {
     @apply text-4xl tracking-wider;
   }
+
+  main {
+    @apply -mt-20;
+  }
+
+  h1 {
+    @apply text-3xl tracking-wider md:text-6xl;
+  }
+
+  h5 {
+    @apply text-xl tracking-wider;
+  }
 }

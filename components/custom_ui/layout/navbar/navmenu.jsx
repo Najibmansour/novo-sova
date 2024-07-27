@@ -15,8 +15,8 @@ import Link from "next/link";
 
 const navigation = [
   { title: "Home", href: "/" },
-  { title: "About", href: "/about" },
-  { title: "Categories", href: "/products" },
+  { title: "About", href: "/#about_caroussel" },
+  { title: "Categories", href: "/#categories" },
   { title: "Let's Connect", href: "/contact" },
   { title: "Policy", href: "/policy" },
 ];
